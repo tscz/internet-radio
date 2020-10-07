@@ -1,0 +1,8 @@
+[Unit]
+Description=Poweroff Button
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/poweroff.py
+
+[Install]
+WantedBy=multi-user.target
