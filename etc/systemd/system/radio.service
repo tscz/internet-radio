@@ -1,0 +1,8 @@
+[Unit]
+Description=Internet Radio
+
+[Service]
+ExecStart=/home/pi/.local/bin/radio
+
+[Install]
+WantedBy=multi-user.target
